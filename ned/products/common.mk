@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/ned/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
     vendor/ned/proprietary/common/xbin/su:system/xbin/su
 
- Enable SIP+VoIP on all targets
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
+# Enable SIP+VoIP on all targets
+#PRODUCT_COPY_FILES += \
+#    frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
