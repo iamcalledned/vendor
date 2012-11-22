@@ -1,3 +1,2 @@
-add_lunch_combo ned_toro-userdebug
 add_lunch_combo ned_manta-userdebug
 
