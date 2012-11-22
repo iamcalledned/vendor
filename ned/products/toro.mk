@@ -2,7 +2,7 @@
 $(call inherit-product, device/samsung/toro/full_toro.mk)
 
 # Inherit common product files.
-$(call inherit-product, vendor/ned/products/common.mk)
+$(call inherit-product, vendor/ned/proprietary/common/common.mk)
 
 # Setup device specific product configuration.
 PRODUCT_NAME := ned_toro
