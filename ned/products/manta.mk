@@ -2,7 +2,7 @@
 $(call inherit-product, device/samsung/manta/full_manta.mk)
 
 # Inherit common product files.
-$(call inherit-product, vendor/ned/proprietary/common/common.mk)
+$(call inherit-product, vendor/ned/proprietary/manta/Android.mk)
 
 # Setup device specific product configuration.
 PRODUCT_NAME := ned_manta
