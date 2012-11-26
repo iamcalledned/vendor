@@ -12,6 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+PRODUCT_PACKAGES += \
+        SetupWizard
+
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),manta)
@@ -28,6 +31,16 @@ LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := SetupWizard
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_PATH := $(TARGET_OUT)/app
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
 
 
 
