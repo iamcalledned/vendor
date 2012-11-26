@@ -16,6 +16,9 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=mantaray-user BUILD_FINGERPRINT=goo
 PRODUCT_PACKAGES += \
         SetupWizard
 
+PRODUCT_PROPERTY_OVERRIDES += \
+        ro.setupwizard.enterprise_mode=1
+
 
 
 
