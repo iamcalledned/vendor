@@ -11,7 +11,7 @@ PRODUCT_DEVICE := manta
 PRODUCT_MODEL := Nexus 10
 PRODUCT_MANUFACTURER := samsung
 BUILD_FINGERPRINT := google/mantaray/manta:4.2.1/JOP40D/533553:user/release-keys
-PRIVATE_BUILD_DESC := mantaray-user 4.2.1 JOP40D 533553 release-keys
+PRIVATE_BUILD_DESC := "mantaray-user 4.2.1 JOP40D 533553 release-keys"
 BUILD_NUMBER := 533553
 BUILD_ID := JOP40D
 
